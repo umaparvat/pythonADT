@@ -70,7 +70,7 @@ run. If the line segment is vertical, None is returned.
 x-axis and yInc amount along the y-axis.
 * **midpoint()**: Returns the midpoint of the line segment as a Point object.
 
-[LineSegment]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/LineSegment.py))
+[LineSegment](https://github.com/umaparvat/pythonADT/blob/master/adt/LineSegment.py)
 ## CounterBag
 A click counter is a small hand-held device that contains a push button and
 a count display. To increment the counter, the button is pushed and the new
@@ -78,14 +78,14 @@ count shows in the display. Clicker counters also contain a button that can be
 pressed to reset the counter to zero. Design and implement the Counter ADT
 that functions as a hand-held clicker.
 
-[ConterBag]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/counter.py))
+[ConterBag](https://github.com/umaparvat/pythonADT/blob/master/adt/counter.py)
 ## GrabBag
 A Grab Bag ADT is similar to the Bag ADT with one dierence. A grab
 bag does not have a remove() operation, but in place of it has a grabItem()
 operation, which allows for the random removal of an item from the bag.
 Implement the Grab Bag ADT.
 
-[grabbag]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/grabbag.py))
+[grabbag](https://github.com/umaparvat/pythonADT/blob/master/adt/grabbag.py)
 
 ## RandomItemBag
 A Counting Bag ADT is just like the Bag ADT but includes the numOf(item)
@@ -93,7 +93,7 @@ operation, which returns the number of occurrences of the given item in the
 bag. Implement the Counting Bag ADT and defend your selection of data
 structure.
 
-[randombag]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/countbag.py))
+[randombag](https://github.com/umaparvat/pythonADT/blob/master/adt/countbag.py)
 ## Date
 A date represents a single day in the proleptic Gregorian calendar in which the
 rst day starts on November 24, 4713 BC.
