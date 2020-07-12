@@ -97,7 +97,7 @@ structure.
 ## Date
 A date represents a single day in the proleptic Gregorian calendar in which the
 rst day starts on November 24, 4713 BC.
-* ** Date( month, day, year ): Creates a new Date instance initialized to the
+* **Date( month, day, year )**: Creates a new Date instance initialized to the
 given Gregorian date which must be valid. Year 1 BC and earlier are indicated
 by negative year components.
 * **day()**: Returns the Gregorian day number of this date.
@@ -120,7 +120,7 @@ logical operators <, <=, >, >=, ==, !=.
 mm/dd/yyyy. Implemented as the Python operator that is automatically called
 via the str() constructor.
 
-[MyDate]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/mydate.py))
+[MyDate](https://github.com/umaparvat/pythonADT/blob/master/adt/mydate.py)
 ## Time
 We can use a Time ADT to represent the time of day, for any 24-hour period,
 as the number of seconds that have elapsed since midnight. Given the following
@@ -141,4 +141,5 @@ termine their logical ordering. This comparison can be done using any of
 the Python logical operators.
 * **toString ()**: Returns a string representing the time in the 12-hour format
 hh:mm:ss. Invoked by calling Python's str() constructor.
-[MyTime]([Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/mytime.py))
+
+[MyTime](https://github.com/umaparvat/pythonADT/blob/master/adt/mytime.py)
