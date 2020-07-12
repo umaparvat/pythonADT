@@ -16,7 +16,7 @@ point values and fractions and the ability to produce a string version of
 the fraction.
 * Provide a Python implementation of your Fraction ADT.
 
-[Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/activitesCalendar.py)
+[Fraction ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/myfraction.py)
 
 ## ActivityCalendar
 Anyone who is involved in many activities typically uses a calendar to keep
@@ -72,6 +72,7 @@ x-axis and yInc amount along the y-axis.
 * **midpoint()**: Returns the midpoint of the line segment as a Point object.
 
 [LineSegment](https://github.com/umaparvat/pythonADT/blob/master/adt/LineSegment.py)
+
 ## CounterBag
 A click counter is a small hand-held device that contains a push button and
 a count display. To increment the counter, the button is pushed and the new
@@ -80,6 +81,7 @@ pressed to reset the counter to zero. Design and implement the Counter ADT
 that functions as a hand-held clicker.
 
 [ConterBag](https://github.com/umaparvat/pythonADT/blob/master/adt/counter.py)
+
 ## GrabBag
 A Grab Bag ADT is similar to the Bag ADT with one dierence. A grab
 bag does not have a remove() operation, but in place of it has a grabItem()
@@ -95,6 +97,7 @@ bag. Implement the Counting Bag ADT and defend your selection of data
 structure.
 
 [randombag](https://github.com/umaparvat/pythonADT/blob/master/adt/countbag.py)
+
 ## Date
 A date represents a single day in the proleptic Gregorian calendar in which the
 rst day starts on November 24, 4713 BC.
@@ -122,6 +125,7 @@ mm/dd/yyyy. Implemented as the Python operator that is automatically called
 via the str() constructor.
 
 [MyDate](https://github.com/umaparvat/pythonADT/blob/master/adt/mydate.py)
+
 ## Time
 We can use a Time ADT to represent the time of day, for any 24-hour period,
 as the number of seconds that have elapsed since midnight. Given the following
