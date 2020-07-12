@@ -42,6 +42,7 @@ given month. The display includes the year and name of the month and
 the list of activities for the month. The display of each activity includes
 the day of the month on which the activity occurs and the description
 of the activity.
+
 [Activity ADT](https://github.com/umaparvat/pythonADT/blob/master/adt/activitesCalendar.py)
 
 ## LineSegment
